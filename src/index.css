@@ -5,12 +5,26 @@ body{
 
 .background{
   background-image: url("assets/home.jpg");
-      background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
-    position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  position: relative;
+  height: 100vh;
 }
 
 .putih, #nav-toggle-button{
   color:white;
+}
+
+.kotak{
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+.isi{
+	padding: 40px;
+}
+
+.img{
+	width:10%
 }
