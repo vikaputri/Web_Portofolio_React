@@ -1,0 +1,13 @@
+body{
+  font-family: Karla,sans-serif;
+  font-weight: 400;
+}
+
+.background{
+  background-image: url("assets/home.jpg");
+  background-size: 100%;
+}
+
+.putih{
+  color:white;
+}
