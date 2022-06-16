@@ -53,7 +53,7 @@ const Kontak = () => {
                     <div className="form-group row mb-2">
                       <label  className="col-sm-4 col-form-label">Tulis Pesan</label>
                       <div className="col-sm-8">
-                        <textarea cols="40" rows="" className="form-control mb-3"></textarea>
+                        <textarea cols="40" rows="5s" className="form-control mb-3"></textarea>
                       </div>
                     </div>
                     <div className="d-flex justify-content-end">
