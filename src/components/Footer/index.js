@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Footer extends Component {
+className Footer extends Component {
   render() {
     return (
       <footer className="bg-dark py-4 text-white px-3">

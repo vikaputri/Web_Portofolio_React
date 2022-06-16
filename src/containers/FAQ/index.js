@@ -6,10 +6,10 @@ const FAQ = () => {
   return (
     <div>
       <Header/> 
-        <section class="py-5 px-2">
-          <div class="container px-5">
-            <div class="justify-content-center">
-              <h1 class="fw-bolder mb-5 text-center">Pusat bantuan</h1>
+        <section className="py-5 px-2">
+          <div className="container px-5">
+            <div className="justify-content-center">
+              <h1 className="fw-bolder mb-5 text-center">Pusat bantuan</h1>
 
               <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
@@ -52,15 +52,15 @@ const FAQ = () => {
           </div>
         </section>
 
-        <section class="py-5 px-2">
-          <div class="container px-5">
-            <div class="justify-content-center">
-              <h2 class="fw-bolder mb-4 text-center">Ingin bertanya lebih jauh?</h2>
-              <div class="mb-5 text-center">
+        <section className="py-5 px-2">
+          <div className="container px-5">
+            <div className="justify-content-center">
+              <h2 className="fw-bolder mb-4 text-center">Ingin bertanya lebih jauh?</h2>
+              <div className="mb-5 text-center">
                 <p>Hubungi kami untuk informasi lebih lanjut mengenai pelatihan di Metalit.id</p>        
               </div>
-              <div class="text-center">
-                <a class="btn btn-primary" href="Kontak">Hubungi Kami</a>
+              <div className="text-center">
+                <a className="btn btn-primary" href="Kontak">Hubungi Kami</a>
               </div>
             </div>
           </div>

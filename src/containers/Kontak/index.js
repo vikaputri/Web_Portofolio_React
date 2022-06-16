@@ -8,56 +8,56 @@ const Kontak = () => {
   return (
     <div>
       <Header/> 
-       <section class="py-5">
-        <div class="container">
-          <div class="row">
-            <div class="mx-3 col-md-4">
-              <h3 class="fw-bolder mb-5">Kontak</h3>
-              <div class="mb-4">
-                <img class="img" src={placeholder}/>
-                <span class="mx-3">Gg. Arus, RT.3/RW.1, Srengseng Sawah, 
+       <section className="py-5">
+        <div className="container">
+          <div className="row">
+            <div className="mx-3 col-md-4">
+              <h3 className="fw-bolder mb-5">Kontak</h3>
+              <div className="mb-4">
+                <img className="img" src={placeholder}/>
+                <span className="mx-3">Gg. Arus, RT.3/RW.1, Srengseng Sawah, 
                   <br/>Kec. Jagakarsa, Kota Jakarta Selatan, 
                   <br/>Daerah Khusus Ibukota Jakarta 12640
                   <br/>Telp. 0856-423-3635
                 </span>
               </div>
-              <div class="mb-4">
-                <img class="img" src={whatsapp}/>
-                <span class="mx-3">08564233635</span>
+              <div className="mb-4">
+                <img className="img" src={whatsapp}/>
+                <span className="mx-3">08564233635</span>
               </div>
-              <div class="mb-5">
-                <img class="img" src={gmail}/>
-                <span class="mx-3">support@javood.id</span>
+              <div className="mb-5">
+                <img className="img" src={gmail}/>
+                <span className="mx-3">support@javood.id</span>
               </div>
             </div>
 
-            <div class="col-md-7 mx-2">
-              <div class="card">
-                <div class="py-5">
-                  <h2 class="text-center fw-bolder">Hubungi kami</h2>
-                  <p class="text-center mb-5">Tertarik untuk melakukan kerjasama dengan kami, silahkan hubungi </p>
-                  <form class="px-5">
-                    <h3 class="mb-3 text-center">Tinggalkan Pesan</h3>
-                    <div class="form-group row">
-                      <label class="col-sm-4 col-form-label">Nama</label>
-                      <div class="col-sm-8">
-                        <input class="form-control mb-3"/>
+            <div className="col-md-7 mx-2">
+              <div className="card">
+                <div className="py-5">
+                  <h2 className="text-center fw-bolder">Hubungi kami</h2>
+                  <p className="text-center mb-5">Tertarik untuk melakukan kerjasama dengan kami, silahkan hubungi </p>
+                  <form className="px-5">
+                    <h3 className="mb-3 text-center">Tinggalkan Pesan</h3>
+                    <div className="form-group row">
+                      <label className="col-sm-4 col-form-label">Nama</label>
+                      <div className="col-sm-8">
+                        <input className="form-control mb-3"/>
                       </div>
                     </div>
-                    <div class="form-group row mb-2">
-                      <label class="col-sm-4 col-form-label">Email</label>
-                      <div class="col-sm-8">
-                        <input class="form-control mb-3"/>
+                    <div className="form-group row mb-2">
+                      <label className="col-sm-4 col-form-label">Email</label>
+                      <div className="col-sm-8">
+                        <input className="form-control mb-3"/>
                       </div>
                     </div>
-                    <div class="form-group row mb-2">
-                      <label  class="col-sm-4 col-form-label">Tulis Pesan</label>
-                      <div class="col-sm-8">
-                        <textarea cols="40" rows="10" class="form-control mb-3" rows="5"></textarea>
+                    <div className="form-group row mb-2">
+                      <label  className="col-sm-4 col-form-label">Tulis Pesan</label>
+                      <div className="col-sm-8">
+                        <textarea cols="40" rows="10" className="form-control mb-3" rows="5"></textarea>
                       </div>
                     </div>
-                    <div class="d-flex justify-content-end">
-                      <input type="submit" value="Kirim" class="btn btn-primary"/>
+                    <div className="d-flex justify-content-end">
+                      <input type="submit" value="Kirim" className="btn btn-primary"/>
                     </div>
                   </form>
                 </div>
