@@ -5,9 +5,9 @@ class Footer extends Component {
     return (
       <footer className="bg-dark py-4 text-white px-3">
         <div className="footer-middle">
-          <p className="text-center px-3">
+          <div className="text-center px-3">
             by : Vika Putri Ariyanti
-          </p>
+          </div>
         </div>
       </footer>
     )

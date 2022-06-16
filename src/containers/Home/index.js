@@ -5,7 +5,7 @@ import { Nav, Navbar } from "react-bootstrap";
 const Home = () => {
   return (
   <header class="background text-white">
-    <Navbar collapseOnSelect expand="sm" className="navbar navbar-expand-lg mb-2 ">
+    <Navbar collapseOnSelect expand="sm" className="navbar navbar-dark navbar-expand-lg">
       <div className="container">
         <Navbar.Brand>
           <NavLink to="/" className="px-3 nav-link text-uppercase text-white">Home
@@ -25,8 +25,8 @@ const Home = () => {
     <div class="container py-5 px-5">
       <div class="row gx-5 align-items-center justify-content-center">
         <div class="col-lg-8 col-xl-7 col-xxl-6">
-          <div class="mx-5 my-5 text-center text-xl-start">
-            <h2 class="">Catering Tanpa Minimal Order</h2>
+          <div class="my-5 text-xl-start">
+            <h2>Catering Tanpa Minimal Order</h2>
             <h1 class="display-5 fw-bolder">Javood</h1>
             <p class="fw-normal mb-5">
               Makanan rumahan murah, enak, dan berkualitas

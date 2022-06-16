@@ -5,12 +5,12 @@ const ComingSoon = () => {
   return (
   	<div>
   		<Header/> 
-		<div class="bgcomingsoon text-center">
-		   <h1 class="text mb-3">COMING SOON</h1>
-		   <a class="btn btn-warning putih text-reset text-decoration-none" href="/">
-		   	Back to Home
-		   </a>
-		</div>
+  		<div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
+  			<h1 class="mb-3">COMING SOON</h1>
+	        <a class="btn btn-warning text-decoration-none" href="/">
+	          Back to Home
+	        </a>
+	    </div>
 	</div>
     );
   };

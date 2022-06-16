@@ -5,9 +5,12 @@ body{
 
 .background{
   background-image: url("assets/home.jpg");
-  background-size: 100%;
+      background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    position: relative;
 }
 
-.putih{
+.putih, #nav-toggle-button{
   color:white;
 }
