@@ -62,7 +62,7 @@ const Menu = () => {
             <div className="row mx-2">
               <div className="col-md-4">
                 <div className="card mb-3">
-                  <imgs src={bento} alt=""/>
+                  <img src={bento} alt=""/>
                   <div className="card-body">
                     <h5 className="card-title name">Bento</h5>
                   </div>
