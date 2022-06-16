@@ -25,7 +25,7 @@ const About = () => {
             </div>
 
             <div className="col-md-5">
-              <img className="img-thumbnail" src={chef}/>
+              <img className="img-thumbnail" src={chef} alt=""/>
             </div>
           </div>
           <div className="text-center mt-5">

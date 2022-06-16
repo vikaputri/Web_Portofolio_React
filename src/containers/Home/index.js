@@ -75,7 +75,7 @@ const Home = () => {
 
           <div className="col-md-4">
             <div className="card mb-3">
-              <img src={bento}/>
+              <img src={bento} alt=""/>
               <div className="card-body">
                 <h5 className="card-title name">Ayam</h5>
               </div>
@@ -87,7 +87,7 @@ const Home = () => {
 
           <div className="col-md-4">
             <div className="card mb-3">
-              <img src={bento}/>
+              <img src={bento} alt=""/>
               <div className="card-body">
                 <h5 className="card-title name">Daging</h5>
               </div>
@@ -99,7 +99,7 @@ const Home = () => {
 
           <div className="col-md-4">
             <div className="card mb-3">
-              <img src={bento}/>
+              <img src={bento} alt=""/>
               <div className="card-body">
                 <h5 className="card-title name">Ikan dan Seafood</h5>
               </div>
@@ -108,8 +108,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-
-
         </div>
 
         <div className="text-center mt-3">

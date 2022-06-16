@@ -14,7 +14,7 @@ const Kontak = () => {
             <div className="mx-3 col-md-4">
               <h3 className="fw-bolder mb-5">Kontak</h3>
               <div className="mb-4">
-                <img className="img" src={placeholder}/>
+                <img className="img" src={placeholder} alt=""/>
                 <span className="mx-3">Gg. Arus, RT.3/RW.1, Srengseng Sawah, 
                   <br/>Kec. Jagakarsa, Kota Jakarta Selatan, 
                   <br/>Daerah Khusus Ibukota Jakarta 12640
@@ -22,11 +22,11 @@ const Kontak = () => {
                 </span>
               </div>
               <div className="mb-4">
-                <img className="img" src={whatsapp}/>
+                <img className="img" src={whatsapp} alt=""/>
                 <span className="mx-3">08564233635</span>
               </div>
               <div className="mb-5">
-                <img className="img" src={gmail}/>
+                <img className="img" src={gmail} alt=""/>
                 <span className="mx-3">support@javood.id</span>
               </div>
             </div>
@@ -53,7 +53,7 @@ const Kontak = () => {
                     <div className="form-group row mb-2">
                       <label  className="col-sm-4 col-form-label">Tulis Pesan</label>
                       <div className="col-sm-8">
-                        <textarea cols="40" rows="10" className="form-control mb-3" rows="5"></textarea>
+                        <textarea cols="40" rows="" className="form-control mb-3"></textarea>
                       </div>
                     </div>
                     <div className="d-flex justify-content-end">
