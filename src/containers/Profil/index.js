@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../../components/Header";
-import chef from "../../assets/coba.jpeg";
 import html from "../../assets/html.png"
 import css from "../../assets/css.png"
 import cypress from "../../assets/cypress.png"
@@ -35,16 +34,25 @@ const About = () => {
   return (
     <div>
       <Header/> 
-      <header className="py-5">
-        <div className="py-3 container">
+      <header className="py-4">
+        <div className="py-4 container">
           <div className="row justify-content-center">
             <div className="col-md-5">
                 <h1 className="fw-bolder mb-3">About</h1>
                 <p className="text-muted mb-4">
-                  Hi, my name is Vika Putri Ariyanti. 
-                  I am a software engineer with fullstack development experience. I am interested in web programming and machine learning.
+                  Hi, I'm Vika Putri Ariyanti.  
+                  I am a software engineer in Indonesia. 
+                  I have experience as a Fullstack developer with skills in React.js, Next.js, and Vue for Frontend. 
+                  While in Backend, I have skills in Django and Golang.
                 </p>
-                <h3 className="fw-bolder mt-3 mb-4">Skill</h3>
+                <p className="text-muted mb-4">
+                  I am an undergraduate of Informatics Engineering and graduate of Master of Information System Management of Gunadarma University.  
+                  I am interested in web programming and machine learning especially NLP.
+                </p>
+            </div>
+
+            <div className="col-md-5 mb-3">
+            <h1 className="fw-bolder mt-3 mb-4">Skill</h1>
                 <div className="mb-3">
                   <div className="d-inline me-3"><img className="img" src={html} alt=""/></div>
                   <div className="d-inline me-3"><img className="img" src={css} alt=""/></div>
@@ -63,10 +71,6 @@ const About = () => {
                   <div className="d-inline me-3"><img className="img" src={linux} alt=""/></div>
                   <div className="d-inline me-3"><img className="img" src={postman} alt=""/></div>
                 </div>
-            </div>
-
-            <div className="col-md-5 mb-3">
-              <img className="img-thumbnail" src={chef} alt=""/>
             </div>
           </div>
           <div className="px-5">
