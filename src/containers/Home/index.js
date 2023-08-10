@@ -40,15 +40,15 @@ const Home = () => {
           <div className="col-xl-5 col-xxl-6 text-center">
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-8 col-xl-7 col-xxl-6">
-            <a href="https://www.linkedin.com/in/vikaputriariyanti/" class="d-inline me-3"><i class="fab fa-linkedin fa-lg fa-white"></i></a>
-            <a href="https://github.com/Vputri" class="d-inline me-3"><i class="fab fa-github fa-lg fa-white"></i></a>
-            <a href="https://github.com/vikaputri" class="d-inline me-3"><i class="fab fa-github fa-lg fa-white"></i></a>
-            <a href="https://github.com/vikaputri" class="d-inline me-3"><i class="fab fa-gitlab fa-lg fa-white"></i></a>
-            <a href="https://vpa.pythonanywhere.com/" class="d-inline me-3"><i class="fa fa-globe fa-lg fa-white"></i></a>
+        <div className="row">
+          <div className="col-lg-8 col-xl-7 col-xxl-6">
+            <a href="https://www.linkedin.com/in/vikaputriariyanti/" className="d-inline me-3"><i className="fab fa-linkedin fa-lg fa-white"></i></a>
+            <a href="https://github.com/Vputri" className="d-inline me-3"><i className="fab fa-github fa-lg fa-white"></i></a>
+            <a href="https://github.com/vikaputri" className="d-inline me-3"><i className="fab fa-github fa-lg fa-white"></i></a>
+            <a href="hhttps://gitlab.com/Vputri" className="d-inline me-3"><i className="fab fa-gitlab fa-lg fa-white"></i></a>
+            <a href="https://vpa.pythonanywhere.com/" className="d-inline me-3"><i className="fa fa-globe fa-lg fa-white"></i></a>
           </div>
-          <div class="col-xl-5 col-xxl-6 text-center"></div>
+          <div className="col-xl-5 col-xxl-6 text-center"></div>
         </div>
       </div>
     </header>
