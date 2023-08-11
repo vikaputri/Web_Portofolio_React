@@ -17,7 +17,6 @@ function App() {
           <Route path="/Education" component={Education} exact />
           <Route path="/Experience" component={Experience} exact />
           <Route path="/Project" component={Project} exact />
-          <Route path="/ComingSoon" component={ComingSoon} exact />
         </Switch>
         <Footer/>
       </div>
