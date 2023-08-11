@@ -26,7 +26,7 @@ export const projectData = [
     },
     {
         title: "Dogecoin Price Prediction",
-        description: "Dogecoin Price Prediction is a website giving past, present and future Dogecoin Price information.",
+        description: "Dogecoin Price Prediction is a website giving past, present and future dogecoin price information.",
         image: project_3,
     },
     {
@@ -36,7 +36,7 @@ export const projectData = [
     },
     {
         title: "Book Recomendation",
-        description: "Magnifying is Book recommendation search engine system.",
+        description: "Magnifying is book recommendation search engine system.",
         image: project_4,
     },
     {
