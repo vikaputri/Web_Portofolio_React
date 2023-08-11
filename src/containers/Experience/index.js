@@ -7,7 +7,7 @@ const Experience = () => {
       <Header/> 
       <header className="py-5">
         <div class="d-flex justify-content-center">
-          <i class="fa fa-graduation-cap fa-4x"></i><h1 class="ms-3">My Experience</h1>
+          <i class="fa fa-briefcase fa-3x"></i><h1 class="ms-3">My Experience</h1>
         </div>
         <div className="py-3 container mt-4">
           <div className="row justify-content-center">
