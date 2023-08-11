@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Footer from "./components/Footer";
 import Home from "./containers/Home";
 import Profil from "./containers/Profil";
-import ComingSoon from "./containers/ComingSoon";
 import Education from "./containers/Education";
 import Experience from "./containers/Experience";
 import Project from "./containers/Project";
