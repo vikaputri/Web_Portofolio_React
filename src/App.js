@@ -5,6 +5,7 @@ import Profil from "./containers/Profil";
 import Education from "./containers/Education";
 import Experience from "./containers/Experience";
 import Project from "./containers/Project";
+import ComingSoon from "./containers/ComingSoon";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/Education" component={Education} exact />
           <Route path="/Experience" component={Experience} exact />
           <Route path="/Project" component={Project} exact />
+          <Route path="/ComingSoon" component={ComingSoon} exact />
         </Switch>
         <Footer/>
       </div>

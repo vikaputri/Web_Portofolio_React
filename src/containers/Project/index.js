@@ -15,11 +15,13 @@ const Project = () => {
                 {projectData.map((data, key) => {
                 return (
                   <div class="col-sm-4 mb-5">
-                    <div key={key} class="card h-100" style={{width : '18em'}}>
+                    <div key={key} class="card h-100">
                       <img class="card-img-top" src={data.image} alt=""/>
                       <div class="card-body">
-                        <h5 class="card-title">{data.title}</h5>
+                        <h5 class="card-title fw-bolder">{data.title}</h5>
                         <p class="card-text">{data.description}</p>
+                        <p class="card-text"><strong>Tech: </strong>{data.tech}</p>
+                        <a href={data.url} class="btn btn-primary">Show</a>
                       </div>
                     </div>
                   </div>
