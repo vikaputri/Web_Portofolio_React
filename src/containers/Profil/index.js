@@ -47,7 +47,7 @@ const About = () => {
                 </p>
                 <p className="text-muted mb-4">
                   I am an undergraduate of Informatics Engineering and graduate of Master of Information System Management of Gunadarma University.  
-                  I am interested in web programming and machine learning especially NLP.
+                  I am also interested in machine learning especially NLP.
                 </p>
             </div>
 
