@@ -31,13 +31,6 @@ export const projectData = [
         url:"https://vpa.pythonanywhere.com/"
     },
     {
-        title: "Dogecoin Price Prediction",
-        description: "Dogecoin Price Prediction is a website giving past, present and future dogecoin price information.",
-        image: project_3,
-        tech:"Django",
-        url:"/ComingSoon"
-    },
-    {
         title: "Twitter Sentiment Analysis",
         description: "Twitter Sentiment Analysis is website to analyse opinions in twitter about the corona vaccine controversy in Indonesia.",
         image: project_5,
@@ -50,6 +43,13 @@ export const projectData = [
         image: project_9,
         tech:"HTML, CSS, JS",
         url:"https://vputri.github.io/E-Learning/home.html"
+    },
+    {
+        title: "Dogecoin Price Prediction",
+        description: "Dogecoin Price Prediction is a website giving past, present and future dogecoin price information.",
+        image: project_3,
+        tech:"Django",
+        url:"/ComingSoon"
     },
     {
         title: "Film recommendation",
