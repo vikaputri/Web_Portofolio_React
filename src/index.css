@@ -24,6 +24,12 @@ body{
 	padding: 40px;
 }
 
+.zero{
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: rgba(34, 38, 42, 0.03)!important;
+}
+
 .img{
 	width:10%
 }

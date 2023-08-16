@@ -13,33 +13,66 @@ const Education = () => {
 
         <div className="py-3 container mt-4 d-flex justify-content-center">
           <div className="">
-            <div class="card mb-4" style={{width : '45rem'}}>
+            <div class="card mb-4" style={{width : '41rem'}}>
                 <div className="row m-1">
-                  <div className="col-md-3">
+                  <div className="col-md-2">
                   <img className="card-img-top" src={UG} alt=""/>
                   </div>
-                  <div className="col-md-9">
+                  <div className="col-md-10">
                     <h3>Gunadarma University</h3>
                     <div>Master Degree - Information System Management</div>
                     <div className="text-muted mb-2">Sep 2021 - Jul 2023</div>
-                    <div><strong>GPA</strong> : 3.93/4.0</div>
-                    <div><strong>Thesis</strong> : Forecasting Crude Oil Prices using ARIMA and SARIMA Model</div>
+                  </div>
+                  <div className="card-footer">
+                  <table class="table table-borderless">
+                      <tr>
+                        <th scope="row">GPA</th>
+                        <td>:</td>
+                        <td> 3.93/4.0</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Thesis</th>
+                        <td>:</td>
+                        <td>Forecasting Crude Oil Prices using ARIMA and SARIMA Model</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Publication</th>
+                        <td>:</td>
+                        <td><a className="text-decoration-none text-reset zero" href=" https://doi.org/10.29207/resti.v7i2.4895"> Comparison of ARIMA and SARIMA for Forecasting Crude Oil Prices</a></td>
+                      </tr>
+                    </table>
                   </div>
                 </div>
               </div>
 
-              <div class="card" style={{width : '45rem'}}>
+              <div class="card" style={{width : '41rem'}}>
                 <div className="row m-1">
-                  <div className="col-md-3">
+                  <div className="col-md-2">
                     <img className="card-img-top" src={UG} alt=""/>
                   </div>
-                  <div className="col-md-9">
+                  <div className="col-md-10">
                     <h3>Gunadarma University</h3>
                     <div>Bachelor Degree - Informatics Engineering</div>
                     <div className="text-muted mb-2">Sep 2017 - Aug 2021</div>
-                    <div><strong>GPA</strong> : 3.93/4.0</div>
-                    <div><strong>Thesis</strong> : Implementation of Naïve Bayes Algorithm on Sentiment Analysis of Topic of 
-                      Giving Covid 19 Pandemic Vaccine Using Python</div>
+                  </div>
+                  <div className="card-footer">
+                    <table class="table table-borderless">
+                      <tr>
+                        <th scope="row">GPA</th>
+                        <td>:</td>
+                        <td> 3.93/4.0</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Thesis</th>
+                        <td>:</td>
+                        <td> Implementation of Naïve Bayes Algorithm on Sentiment Analysis</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td> of Topic of Giving Covid 19 Pandemic Vaccine Using Python</td>
+                      </tr>
+                    </table>
                   </div>
                 </div>
               </div>
