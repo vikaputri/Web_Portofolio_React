@@ -11,14 +11,14 @@ const Education = () => {
           <i class="fa fa-graduation-cap fa-3x"></i><h1 class="ms-3">My Education</h1>
         </div>
 
-        <div className="py-3 container mt-4 d-flex justify-content-center">
-          <div className="">
+        <div className="py-3 container mt-4">
+          <div className="row justify-content-center">
             <div class="card mb-4" style={{width : '41rem'}}>
                 <div className="row m-1">
-                  <div className="col-md-2">
-                  <img className="card-img-top" src={UG} alt=""/>
+                  <div className="col-2">
+                    <img className="card-img-top" src={UG} alt=""/>
                   </div>
-                  <div className="col-md-10">
+                  <div className="col-10">
                     <h3>Gunadarma University</h3>
                     <div>Master Degree - Information System Management</div>
                     <div className="text-muted mb-2">Sep 2021 - Jul 2023</div>
@@ -47,10 +47,10 @@ const Education = () => {
 
               <div class="card" style={{width : '41rem'}}>
                 <div className="row m-1">
-                  <div className="col-md-2">
+                  <div className="col-2">
                     <img className="card-img-top" src={UG} alt=""/>
                   </div>
-                  <div className="col-md-10">
+                  <div className="col-10">
                     <h3>Gunadarma University</h3>
                     <div>Bachelor Degree - Informatics Engineering</div>
                     <div className="text-muted mb-2">Sep 2017 - Aug 2021</div>
@@ -65,12 +65,7 @@ const Education = () => {
                       <tr>
                         <th scope="row">Thesis</th>
                         <td>:</td>
-                        <td> Implementation of Naïve Bayes Algorithm on Sentiment Analysis</td>
-                      </tr>
-                      <tr>
-                        <th scope="row"></th>
-                        <td></td>
-                        <td> of Topic of Giving Covid 19 Pandemic Vaccine Using Python</td>
+                        <td> Implementation of Naïve Bayes Algorithm on Sentiment Analysis of Topic of Giving Covid 19 Pandemic Vaccine Using Python</td>
                       </tr>
                     </table>
                   </div>

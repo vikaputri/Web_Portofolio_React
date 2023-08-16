@@ -4,7 +4,7 @@ import { Nav, Navbar } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <Navbar collapseOnSelect expand="sm" className="navbar navbar-expand-lg navbar-light">
+    <Navbar collapseOnSelect expand="sm" className="navbar navbar-expand-lg navbar-light py-3">
       <div className="container">
         <Navbar.Brand>
           <NavLink to="/" className="px-3 nav-link text-uppercase text-reset">Home
