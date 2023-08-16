@@ -24,10 +24,8 @@ body{
 	padding: 40px;
 }
 
-.zero{
-  padding: 0 !important;
-  margin: 0 !important;
-  background-color: rgba(34, 38, 42, 0.03)!important;
+table{
+  background-color: rgb(181, 184, 187)!important;
 }
 
 .img{

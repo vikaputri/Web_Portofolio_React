@@ -5,7 +5,7 @@ const Experience = () => {
   return (
   	<div>
       <Header/> 
-      <header className="py-5">
+      <header className="py-4">
         <div class="d-flex justify-content-center">
           <i class="fa fa-briefcase fa-3x"></i><h1 class="ms-3">My Experience</h1>
         </div>

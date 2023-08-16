@@ -6,7 +6,7 @@ const Project = () => {
   return (
   	<div>
       <Header/> 
-      <header className="py-5 px-5">
+      <header className="py-4 px-5">
         <div class="d-flex justify-content-center">
           <i class="fas fa-laptop-code fa-3x"></i><h1 class="ms-3">My Project</h1>
         </div>
