@@ -46,7 +46,7 @@ const About = () => {
                   While in Backend, I have skills in Django and Golang.
                 </p>
                 <p className="text-muted mb-4">
-                  I am an undergraduate of Informatics Engineering and graduate of Master of Information System Management of Gunadarma University.  
+                  I am a Bachelor's in Informatics Engineering and Master's Degree in Information System Management from Gunadarma University.  
                   I am also interested in machine learning especially NLP.
                 </p>
             </div>
@@ -69,7 +69,7 @@ const About = () => {
                   <div className="d-inline me-3"><img className="img" src={go} alt=""/></div>
                   <div className="d-inline me-3"><img className="img" src={git} alt=""/></div>
                   <div className="d-inline me-3"><img className="img" src={linux} alt=""/></div>
-                  <div className="d-inline me-3"><img className="img" src={postman} alt=""/></div>
+                  <div className="d-inline"><img className="img" src={postman} alt=""/></div>
                 </div>
             </div>
           </div>
