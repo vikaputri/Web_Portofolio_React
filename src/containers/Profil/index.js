@@ -74,8 +74,8 @@ const About = () => {
             </div>
           </div>
           <div className="px-5">
-            <button className="btn btn-danger btn-lg px-5 ms-5 sm-4 putih" onClick={onButtonClick}>
-              Download CV
+            <button className="btn btn-danger btn-lg px-5 ms-5 sm-3 putih" onClick={onButtonClick}>
+              Download
             </button>
           </div>
         </div>
