@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../../components/Header";
 import html from "../../assets/html.png"
 import css from "../../assets/css.png"
 import cypress from "../../assets/cypress.png"
@@ -32,9 +31,7 @@ const About = () => {
     })
   }
   return (
-    <div>
-      <Header/> 
-      <header className="py-4">
+      <div className="py-4">
         <div className="py-4 container">
           <div className="row justify-content-center">
             <div className="col-md-5">
@@ -79,8 +76,7 @@ const About = () => {
             </button>
           </div>
         </div>
-      </header>
-    </div>
+      </div>
     );
   };
 

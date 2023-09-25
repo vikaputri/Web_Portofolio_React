@@ -1,12 +1,9 @@
 import React from "react";
-import Header from "../../components/Header";
 import { projectData } from "./project";
 
 const Project = () => {
   return (
-  	<div>
-      <Header/> 
-      <header className="py-4 px-5">
+      <div className="py-4 px-5">
         <div class="d-flex justify-content-center">
           <i class="fas fa-laptop-code fa-3x"></i><h1 class="ms-3">My Project</h1>
         </div>
@@ -29,8 +26,7 @@ const Project = () => {
                 })}
             </div>
         </div>
-      </header>
-	</div>
+      </div>
     );
   };
 

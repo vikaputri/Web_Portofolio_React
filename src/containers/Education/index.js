@@ -1,12 +1,9 @@
 import React from "react";
-import Header from "../../components/Header";
 import UG from "../../assets/UG.png"
 
 const Education = () => {
   return (
-  	<div>
-      <Header/> 
-      <header className="py-4">
+      <div className="py-4">
         <div class="d-flex justify-content-center">
           <i class="fa fa-graduation-cap fa-3x"></i><h1 class="ms-3">My Education</h1>
         </div>
@@ -76,8 +73,7 @@ const Education = () => {
             </div>
           
         </div>
-      </header>
-	</div>
+      </div>
     );
   };
 

@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 import Home from "./containers/Home";
 import Profil from "./containers/Profil";
 import Education from "./containers/Education";
@@ -11,6 +12,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Header/>
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/About" component={Profil} exact />
