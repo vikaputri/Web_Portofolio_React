@@ -10,7 +10,7 @@ const Education = () => {
 
         <div className="py-3 container mt-4">
           <div className="row justify-content-center">
-            <div class="card mb-4" style={{width : '41rem'}}>
+            {/* <div class="card mb-4" style={{width : '41rem'}}>
                 <div className="row m-1">
                   <div className="col-2">
                     <img className="card-img-top" src={UG} alt=""/>
@@ -43,7 +43,7 @@ const Education = () => {
                     </table>
                   
                 </div>
-              </div>
+              </div> */}
 
               <div class="card" style={{width : '41rem'}}>
                 <div className="row m-1">
