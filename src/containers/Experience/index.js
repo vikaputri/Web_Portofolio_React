@@ -16,9 +16,9 @@ const Experience = () => {
                 </div>
                 <div class="d-flex justify-content-between">
                   <h6 class="card-subtitle mb-2">PT. Mekar Investama Sampoerna</h6>
-                  <h6 class="card-subtitle mb-2 text-muted">Jakarta</h6>
+                  <h6 class="card-subtitle mb-2 text-muted">Jakarta - Hybrid</h6>
                 </div>
-                <p><strong>Skills:</strong> Django, Flask, JQuery</p>
+                <p><strong>Skills:</strong> Django, Flask, JQuery, Git</p>
               </div>
             </div>
             <div class="card mb-3" style={{width : '40rem'}}>
@@ -31,7 +31,7 @@ const Experience = () => {
                   <h6 class="card-subtitle mb-2">PT Informasi Teknologi Indonesia (Jatis Mobile)</h6>
                   <h6 class="card-subtitle mb-2 text-muted">Jakarta - Remote</h6>
                 </div>
-                <p><strong>Skills:</strong> Laravue, Cypress, Firebase, Nginx, Go</p>
+                <p><strong>Skills:</strong> Laravue, Cypress, Firebase, Nginx, Go, Git</p>
               </div>
             </div>
             <div class="card mb-3" style={{width : '40rem'}}>
