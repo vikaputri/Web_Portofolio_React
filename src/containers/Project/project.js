@@ -35,14 +35,14 @@ export const projectData = [
         description: "Twitter Sentiment Analysis is website to analyse opinions in twitter about the corona vaccine controversy in Indonesia.",
         image: project_5,
         tech:"Django",
-        url:"http://sentimenanalysis.pythonanywhere.com/"
+        url:"/ComingSoon"
     },
     {
         title: "Magnifying Science Education",
         description: "Magnifying Science Education is a multimedia learning platform website, especially for biology subjects.",
         image: project_9,
         tech:"HTML, CSS, JS",
-        url:"https://vputri.github.io/E-Learning/home.html"
+        url:"/ComingSoon"
     },
     {
         title: "Dogecoin Price Prediction",
