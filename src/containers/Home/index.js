@@ -21,7 +21,7 @@ const Home = () => {
                 <a href="https://www.linkedin.com/in/vikaputriariyanti/" className="d-inline me-3"><i className="fab fa-linkedin fa-lg"></i></a>
                 <a href="https://github.com/Vputri" className="d-inline me-3"><i className="fab fa-github fa-lg"></i></a>
                 <a href="https://github.com/vikaputri" className="d-inline me-3"><i className="fab fa-github fa-lg"></i></a>
-                <a href="hhttps://gitlab.com/Vputri" className="d-inline me-3"><i className="fab fa-gitlab fa-lg"></i></a>
+                <a href="https://gitlab.com/Vputri" className="d-inline me-3"><i className="fab fa-gitlab fa-lg"></i></a>
                 <a href="https://vpa.pythonanywhere.com/" className="d-inline me-3"><i className="fa fa-globe fa-lg"></i></a>
               </div>
             </div>
